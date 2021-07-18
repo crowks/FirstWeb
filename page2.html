@@ -224,12 +224,12 @@ drop-down li: hover{
     <div class="drop-down">   
         <nav role="navigation">
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="page1.html">ACADEMIC</a></li>
-                <li><a href="page2.html">ATHLETIC</a></li>
-                <li><a href="page3.html">EMPLOYMENT</a></li>
-                <li><a href="page4.html">EXTRA CURRICS</a></li>
-                <li><a href="page5.html">HONORS</a></li>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ACADEMIC</a></li>
+                <li><a href="">ATHLETIC</a></li>
+                <li><a href="">EMPLOYMENT</a></li>
+                <li><a href="">EXTRA CURRICS</a></li>
+                <li><a href="">HONORS</a></li>
             
         </ul>
          
@@ -251,4 +251,12 @@ drop-down li: hover{
         
          <h2> Soccer</h2>
 <p> Maybe quit? Not enjoyable, big time investment during SPRING, prevents the ability to become club president, only very impressive if becoming Varsity captain, no school honors presented-- only league. However, nearly 10 years of soccer shows commitment.</p>
-       
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script>
+    $('.menu a').click(function(){
+        $('.trigger').toggle('round');
+        $('.menu').toggleClass('round');
+        $('.close').toggle();
+        $('.drop-down').toggleClass('down');
+    })
+    </script>

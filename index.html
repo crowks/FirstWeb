@@ -13,7 +13,7 @@
               h1{color: cornflowerblue;
               text-decoration: underline}
               h1{text-align: center}
-              p{color: black; text-align: center}
+              p{color: black}
               h1{font-family: 'Chonburi';font-size: 52px;}
         .study{width:1450px;
         height:500px}
@@ -39,18 +39,11 @@
             margin-top: -360px;
             position: absolute;
             font-size: 40px;
-           color:white;
-                 text-shadow: 2px 2px grey ;}
+           color:darkseagreen;
+                 text-shadow: 2px 2px green ;}
         .main-button{
-            margin-top: -430px;
-            margin-left: 50px;}
-              
-              h6{ font-family: 'Antic Didone';
-                  font-size: 40px;
-                  color: darkgreen;
-                  text-align: center;
-                  
-              }
+            margin-top: -330px;
+            margin-left: 90px;}
           
            ul {
   color:#000;
@@ -81,16 +74,13 @@ ul, li{
     position: absolute;
     width: 100%;
     height: auto;
-    background: floralwhite;
+    background: cornflowerblue;
     top: -100%;
     transition: top 0.4s ease-in-out;
    box-shadow: 0 0 30px 4px #333;
     z-index: 3;
     
 }
- #img{
-             padding: 25px;     
-              }
 header h1 {
     line-height: 45px;
     font-size: 2rem;
@@ -265,19 +255,10 @@ drop-down li: hover{
     top:0;
     transition: top 0.4s ease-in-out;
 }
-              .cs-school{
-                  width: 40px;
-                      height: 40px;
-              }
-              
- div {
-  padding: 25px;
-}
 
 
-              .img{
-                  padding-left: 140px>
-              }
+
+
         
     </style>
 
@@ -289,12 +270,12 @@ drop-down li: hover{
         <nav role="navigation">
             <h1>-Navigation-</h1>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="page1.html">ACADEMIC</a></li>
-                <li><a href="page2.html">ATHLETIC</a></li>
-                <li><a href="page3.html">EMPLOYMENT</a></li>
-                <li><a href="page4.html">EXTRA CURRICS</a></li>
-                <li><a href="page5.html">HONORS</a></li>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ACADEMIC</a></li>
+                <li><a href="">ATHLETIC</a></li>
+                <li><a href="">EMPLOYMENT</a></li>
+                <li><a href="">EXTRA CURRICS</a></li>
+                <li><a href="">HONORS</a></li>
             
         </ul>
          
@@ -308,14 +289,13 @@ drop-down li: hover{
      </header>
 <div class="main-banner">
     <img id="#bg-img">
-    <img src="https://www.solidbackgrounds.com/images/1920x1080/1920x1080-cornflower-blue-solid-color-background.jpg" class="study">
-   
+    <img src="https://i.pinimg.com/originals/64/7d/a0/647da0571d433b7695a780785d538c48.png" class="study">
    
     <h1> COLLEGE IDEAS</h1>
     <h3> Hannah Stone</h3>
         
           <div class="main-button">
-              <a href="page1.html"> Discover</a>
+              <a href=""> Discover</a>
           </div>
           
     
@@ -323,18 +303,10 @@ drop-down li: hover{
     <p> This the first website was designed from scratch by Hannah Stone. Languages used include CSS, HTML, and JavaScript. 
     
     </p>
-    
-    <h6> <b>Career and College</b> </h6>
-  <img id="cs-school">
-    <img src="https://images.ctfassets.net/mrop88jh71hl/3LG11nZploxYgBbajParvh/25eeb34146fb7ee46cecc3cce0d2a3d4/university_cs_lecture.jpg?w=800&q=100" width="500" height="400"  style=float:left>
-    <img style="float: left; padding: 25px;">
-   
-
-    
-    <p style= "text-align: center"> I want to attend a top 20 tech school for Computer with a major in Computer Science and a minor in Business Administration and Management </p>
-
-       <script src="https://code.jquery.com/jquery-2.2.4.js">
-    $('.menu a').click(function){
+  
+   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script>
+    $('.menu a').click(function(){
         $('.trigger').toggle('round');
         $('.menu').toggleClass('round');
         $('.close').toggle();
